@@ -2,10 +2,10 @@ import { motion, useScroll, useMotionValueEvent } from "motion/react";
 import { useState } from "react";
 
 const links = [
-  { label: "Serviços", href: "#servicos" },
-  { label: "Galeria", href: "#galeria" },
+  { label: "Rituais", href: "#servicos" },
+  { label: "Atelier", href: "#atelier" },
+  { label: "Editorial", href: "#galeria" },
   { label: "Membros", href: "#membros" },
-  { label: "Contacto", href: "#contacto" },
 ];
 
 export function Nav() {

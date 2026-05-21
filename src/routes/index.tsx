@@ -1,8 +1,10 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { Nav } from "@/components/Nav";
 import { Hero } from "@/components/Hero";
+import { Marquee } from "@/components/Marquee";
+import { Manifesto } from "@/components/Manifesto";
 import { Services } from "@/components/Services";
-import { WhyTawanda } from "@/components/WhyTawanda";
+import { Atelier } from "@/components/Atelier";
 import { Gallery } from "@/components/Gallery";
 import { Testimonials } from "@/components/Testimonials";
 import { Pricing } from "@/components/Pricing";
@@ -32,9 +34,12 @@ function Index() {
 
       <Nav />
       <Hero />
+      <Marquee items={["Beauty", "Atelier", "Ritual", "Tawanda", "Editorial"]} />
+      <Manifesto />
       <Services />
-      <WhyTawanda />
+      <Atelier />
       <Gallery />
+      <Marquee items={["Reserve", "Celebre", "Brilhe", "Ritual", "Tawanda"]} reverse />
       <Testimonials />
       <Pricing />
       <Membership />
